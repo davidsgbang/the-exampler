@@ -1,0 +1,45 @@
+{
+    "session": {
+      "new": false,
+      "sessionId": "SESSION_ID",
+      "application": {
+        "applicationId": "APPLICATION_ID"
+      },
+      "attributes": {},
+      "user": {
+        "userId": "USER_ID"
+      }
+    },
+    "request": {
+      "type": "IntentRequest",
+      "requestId": "REQUEST_ID",
+      "intent": {
+        "name": "ExampleQueryIntent",
+        "slots": {
+          "Word": {
+            "name": "Word",
+            "value": "developer"
+          }
+        }
+      },
+      "locale": "en-US",
+      "timestamp": "2017-12-01T23:28:59Z"
+    },
+    "context": {
+      "AudioPlayer": {
+        "playerActivity": "IDLE"
+      },
+      "System": {
+        "application": {
+          "applicationId": "APPLICATION_ID"
+        },
+        "user": {
+          "userId": "USER_KD"
+        },
+        "device": {
+          "supportedInterfaces": {}
+        }
+      }
+    },
+    "version": "1.0"
+  }
